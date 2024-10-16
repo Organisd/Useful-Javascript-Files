@@ -70,7 +70,7 @@ const Database = window.database = function( a ) {
                 "data" : []
             };
 
-            if ( !Array.isArray( property ) || Array.isArray( value ) ) {
+            if ( !Array.isArray( property ) || !Array.isArray( value ) ) {
                 
                 return false;
 
